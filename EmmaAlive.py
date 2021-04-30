@@ -1,5 +1,9 @@
 import time
 
+HtoH = 
+HtoN = 
+HtoS = 
+
 moodlist = []
 daylist= []
 day = 0
