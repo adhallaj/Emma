@@ -9,6 +9,8 @@ SH = 0.3263157894736842
 SN = 0.25263157894736843
 SS = 0.42105263157894735
 
+
+#adding up the three transition probabilities from H to make sure the sum is 1.
 test = HH + HN + HS
 
 print(test)
