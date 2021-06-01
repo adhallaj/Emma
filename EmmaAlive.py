@@ -15,6 +15,7 @@ moodlist = []
 daylist= []
 day = 0
 
+#feel function should occur every day (every 86400 seconds)
 def feel():
   time.sleep(86400)
   day += 1
