@@ -4,6 +4,8 @@ transitions = ['H', 'N', 'N', 'S', 'S', 'H', 'H', 'H', 'S', 'S', 'N', 'S', 'H', 
 
 abctransitions = []
 
+#Make list replacing H, N, and S letters with A, B, and C so we can use the rank() function later on.
+
 for state in transitions:
     if state == "H":
         abctransitions.append("A")
