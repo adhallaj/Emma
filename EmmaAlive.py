@@ -1,7 +1,5 @@
 #set up cron to run this script once a day at midnight so it doesn't have to run 24/7
 
-import time
-
 #Probabilities of change between happy (H) neutral (N) and sad (S).
 HH = 0.5033112582781457
 HN = 0.33112582781456956
